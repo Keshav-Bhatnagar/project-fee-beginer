@@ -1,0 +1,390 @@
+.layout_padding {
+  padding: 75px 0;
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 45px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 45px;
+}
+
+.layout_padding-top {
+  padding-top: 75px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 75px;
+}
+
+.heading_container {
+  display: flex;
+}
+
+.heading_container h2 {
+  position: relative;
+  font-weight: bold;
+  color: #003366; /* Dark blue for headings */
+}
+
+.heading_container h2::before {
+  content: url();
+  position: absolute;
+  top: 50%;
+  left: -35px;
+  transform: translateY(-50%);
+}
+
+/*header section*/
+
+.header_section .nav_container {
+  margin: 0 auto;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 30px;
+  color: #003366; /* Dark blue for nav links */
+  text-align: center;
+  font-weight: 1000;
+  width: 100vw;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+  position: relative;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 75px;
+  left: 50%;
+  height: 2.5px;
+  background-color: #0056b3; /* Blue highlight for active link */
+  bottom: 8px;
+  margin: 0 auto;
+  transform: translateX(-50%);
+}
+
+.navbar-brand>img {
+  height: fit-content;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #0056b3; /* Blue on hover */
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.custom_nav-container {
+  background-image: url(../images/search-icon.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+
+.navbar-brand span {
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 24px;
+  font-weight: 700;
+  color: #003366; /* Dark blue for brand */
+  margin-top: 5px;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 5px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/menu.png);
+  background-size: 45px;
+}
+
+.quote_btn-container {
+  padding: auto;
+  display: flex;
+  align-items: center;
+}
+
+.quote_btn-container a {
+  color: #003366; /* Dark blue for quote links */
+  text-decoration: none;
+}
+
+.quote_btn-container a img {
+  width: 15px;
+  margin: 0 25px;
+}
+
+.quote_btn-container a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #0f5d81; /* Light blue background */
+  margin-top: 20px;
+}
+
+.ui-w-80 {
+  width: 80px !important;
+  height: auto;
+}
+
+.btn-default {
+  border-color: rgba(24, 28, 33, 0.1);
+  background: rgba(0, 0, 0, 0);
+  color: #0056b3; /* Blue for default buttons */
+}
+
+.container {
+  margin: 0%;
+  padding: 0%;
+}
+
+label.btn {
+  margin-bottom: 0;
+}
+
+.btn-outline-primary {
+  border-color: #007bff; /* Bootstrap primary color */
+  background: transparent;
+  color: #007bff; /* Blue */
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.text-light {
+  color: #0056b3 !important; /* Light blue text */
+}
+
+.btn-facebook {
+  border-color: rgba(0, 0, 0, 0);
+  background: #3B5998; /* Facebook blue */
+  color: #fff;
+}
+
+.btn-instagram {
+  border-color: rgba(0, 0, 0, 0);
+  background: #000;
+  color: #fff;
+}
+
+.card {
+  background-clip: padding-box;
+  box-shadow: 0 1px 4px rgba(24, 28, 33, 0.012);
+  border: 1px solid #007bff; /* Blue border for cards */
+}
+
+.row-bordered {
+  overflow: hidden;
+}
+
+.account-settings-fileinput {
+  position: absolute;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.account-settings-links .list-group-item.active {
+  font-weight: bold !important;
+}
+
+.account-settings-links .list-group-item.active {
+  background: #007bff !important; /* Active item background */
+  color: white; /* Active item text color */
+}
+
+.account-settings-multiselect~.select2-container {
+  width: 100% !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+  padding: 0.85rem 1.5rem;
+  border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+  color: #fff !important; /* White text for active item */
+}
+
+.material-style .account-settings-links .list-group-item {
+  padding: 0.85rem 1.5rem;
+  border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.material-style .account-settings-links .list-group-item.active {
+  color: #fff !important; /* White text for active item */
+}
+
+.dark-style .account-settings-links .list-group-item {
+  padding: 0.85rem 1.5rem;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark-style .account-settings-links .list-group-item.active {
+  color: #fff !important; /* White text for active item */
+}
+
+.light-style .account-settings-links .list-group-item.active {
+  color: #fff !important; /* White text for active item */
+}
+
+.light-style .account-settings-links .list-group-item {
+  padding: 0.85rem 1.5rem;
+  border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+body {
+  background-color: #e6f7ff; /* Light blue background */
+}
+
+.card {
+  border: 1px solid #007bff; /* Blue border for cards */
+}
+
+.list-group-item.active {
+  background-color: #007bff; /* Active tab color */
+  color: white; /* Text color for active tab */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Button primary color */
+  border-color: #007bff; /* Button border color */
+}
+
+.btn-default {
+  background-color: #e7f1ff; /* Light blue for default buttons */
+  color: #007bff; /* Default button text color */
+}
+
+.form-label {
+  color: #007bff; /* Form label color */
+}
+
+.alert-warning {
+  background-color: #cce5ff; /* Light blue alert background */
+  color: #004085; /* Dark blue text color */
+}
+
+.switcher-label {
+  color: #007bff; /* Switcher label color */
+}
+
+.text-light {
+  color: #0056b3; /* Light blue text */
+}
+
+
+/* General Styles */
+body {
+  background-color: #f0f8ff !important; /* Soft light blue */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading Styles */
+.heading_container h2 {
+  position: relative;
+  font-weight: bold;
+  color: #003366; /* Dark blue */
+  font-size: 2.5em; /* Increased font size for headings */
+  margin-bottom: 20px;
+}
+h4{
+  color: #003366; /* Dark blue
+}
+
+/* Navigation Styles */
+.custom_nav-container {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.custom_nav-container .navbar-nav .nav-link {
+  padding: 15px 30px;
+  color: #003366; /* Dark blue for nav links */
+  text-align: center;
+  font-weight: 600; /* Medium weight for nav links */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.custom_nav-container .navbar-nav .nav-link:hover {
+  color: #0056b3; /* Lighter blue on hover */
+}
+
+/* Button Styles */
+.btn {
+  border-radius: 25px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border: none; /* Remove border */
+  color: white; /* White text */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Card Styles */
+.card {
+  background-clip: padding-box;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Deeper shadow for cards */
+  border: 1px solid #e7f1ff; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Alert Styles */
+.alert-warning {
+  background-color: #e7f1ff; /* Light blue alert background */
+  border-color: #007bff; /* Border color matching primary */
+  color: #003366; /* Dark blue text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heading_container h2 {
+    font-size: 2em; /* Smaller font size on mobile */
+  }
+
+  .custom_nav-container .navbar-nav .nav-link {
+    padding: 10px 20px; /* Adjust padding for mobile */
+  }
+}
